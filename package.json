@@ -1,12 +1,12 @@
 {
   "name": "hasurl",
   "description": "Determine whether the native WHATWG URL implementation is available.",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Steven Vachon <contact@svachon.com> (https://www.svachon.com/)",
   "repository": "stevenvachon/hasurl",
   "devDependencies": {
-    "chai": "^4.0.0",
+    "chai": "^4.0.2",
     "mocha": "^3.4.2",
     "semver": "^5.3.0"
   },
@@ -14,7 +14,7 @@
     "node": ">= 4"
   },
   "scripts": {
-    "test": "mocha test --reporter spec --check-leaks --bail"
+    "test": "mocha test --check-leaks"
   },
   "files": [
     "index.js"
