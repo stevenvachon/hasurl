@@ -17,14 +17,14 @@ npm install hasurl
 const hasURL = require('hasurl');
 
 if (hasURL()) {
-	// supported
+    // supported
 } else {
-	// fallback
+    // fallback
 }
 ```
 
 
 [npm-image]: https://img.shields.io/npm/v/hasurl.svg
-[npm-url]: https://npmjs.org/package/hasurl
+[npm-url]: https://npmjs.com/package/hasurl
 [travis-image]: https://img.shields.io/travis/stevenvachon/hasurl.svg
 [travis-url]: https://travis-ci.org/stevenvachon/hasurl
